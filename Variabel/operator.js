@@ -24,17 +24,3 @@ console.log(++precounter)
 
 let postcounter = 2
 console.log(postcounter++)
-
-let length 
-length = 5
-let widht
-widht = 3
-let rectangle
-let perimeter
-rectangle = length * widht
-perimeter = 2 * (length + widht)
-
-console.log(rectangle);
-console.log(perimeter);
-
-console

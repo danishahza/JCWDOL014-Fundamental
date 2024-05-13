@@ -56,10 +56,11 @@ if (a) {
 }
 
 
-let str = "Purwadhika";
+let str = "";
 
 console.log(str.length);
 
-let kata = "hacktiv"
+let kata = "Typescript"
 
 console.log(kata === "javascript"? "javascript" : "not javascript");
+console.log(grade == "A" ? "Excellent Result" : grade == "B" ? "Good Result" : "Invalid Grade")
