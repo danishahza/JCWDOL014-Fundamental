@@ -7,8 +7,7 @@ class Stack {
     }
 
     #isFull() {
-        return this.#container.length >= this.maxSize
-
+        return this.#container.length >= this.#maxSize
     }
 
     #isEmpty() {
@@ -18,7 +17,7 @@ class Stack {
     push(element) {
         if (this.#isFull()) {
             console.log("Stack Overflow !")
-            return
+            return;
         }
         this.#container.push(element)
     }
@@ -36,7 +35,7 @@ class Stack {
     }
 }
 
-const stack = new Stack()
+const stack = new Stack(2)
 
 stack.push(1)
 stack.push(2)
@@ -44,4 +43,7 @@ stack.push(3)
 console.log(stack.getElements())
 
 stack.pop()
+// stack.pop()
+// stack.pop()
+// stack.pop()
 console.log(stack.getElements())
